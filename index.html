@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento Associação Cultural Espaço Carioca</title>
+</head>
+
+<style>
+    #logo img{
+        
+        margin-left: 269px;
+        max-width: 100px;
+        border-radius: 10px;
+      
+}
+
+    body{
+       
+        display: flex;
+        background: #6bb4e4;
+
+    }
+
+    h1{
+        text-align: center;
+    }
+    h2{
+        color: rgb(5, 5, 5);
+        text-align: center;
+    }
+   
+    #atendimento{
+        max-width: 700px;
+        margin: 0 auto;
+        color: rgb(5, 5, 5);
+    }
+
+    button{
+        margin-top: 20px;
+       margin-left: 269px;
+        padding: 10px;
+        border-radius: 20px;
+        background: #0297fa;
+        color: rgb(5, 5, 5);
+    }
+    
+</style>
+
+<body>
+   
+    <div id="atendimento"> 
+        <div id="logo">
+        <!--Aqui sua imagem de logo-->
+            <img src="" alt="">
+        </div>
+        <!--Titulo da sua ong ou associação-->
+        <h1></h1>
+        <h2>Atendimento</h2>
+        <div id="atendidos" action="salvas.html">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+            <label for="nome">Cpf:</label>
+            <input type="text" id="cpf"><br>
+            <label for="nome">Identidade:</label>
+            <input type="text" id="identidade">
+            <label for="nome">Data de nasc:</label>
+            <input type="date" id="nasc"><br>
+            <label for="nome">Filiação:</label>
+            <input type="text" id="filiacao">
+            <label for="nome">Cartão SUS:</label>
+            <input type="text" id="catasus"><br>
+            <label for="nome">E-mail:</label>
+            <input type="text" id="email">
+            <label for="nome">Telefone:</label>
+            <input type="text" id="tel"><br>
+            <label for="nome">Endereço:</label>
+            <input type="text" id="endereco">
+            <label for="nome">Bairro:</label>
+            <input type="text" id="bairro"><br>
+            <label for="nome">Cep:</label>
+            <input type="text" id="cep">
+            <label for="nome">Municipio:</label>
+            <input type="text" id="municipio"><br>
+            <label for="nome">Estado:</label>
+            <input type="text" id="estado"><br>
+            <label for="nome">Complemento:</label>
+            <input type="text" id="complemento"><br>
+            <!--Botão para ação de captura dos dados-->
+            <button type="submit" onclick="capturar()">Salvar</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
